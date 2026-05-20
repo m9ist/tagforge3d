@@ -1,6 +1,12 @@
 # Generated STL artifacts
 out/
 
+# Raw photos at repo root (originals may contain unmasked sensitive info)
+/IMG_*.JPEG
+/IMG_*.JPG
+/IMG_*.jpeg
+/IMG_*.jpg
+
 # Python
 __pycache__/
 *.py[cod]
