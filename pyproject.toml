@@ -1,0 +1,13 @@
+[project]
+name = "tagforge3d"
+version = "0.1.0"
+description = "Forge printable STL keychain tags (жетоны) with custom text for FDM 3D printing"
+requires-python = ">=3.10"
+dependencies = ["cadquery>=2.4"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tagforge3d"]
